@@ -48,6 +48,7 @@ export default function ExpenseForm({ onAddExpense }) {
             placeholder="Ksh"
             value={amount}
             onChange={(e) => setAmount(e.target.value)}
+            required
           />
         </div>
 
@@ -57,6 +58,7 @@ export default function ExpenseForm({ onAddExpense }) {
             type="date"
             value={date}
             onChange={(e) => setDate(e.target.value)}
+            required
           />
         </div>
 
