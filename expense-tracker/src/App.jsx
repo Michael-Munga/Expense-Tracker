@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>Expense Tracker</h1>
+      <h1 className="page-title">Expense Tracker</h1>
       <SearchBar />
       <ExpenseForm />
       <ExpenseList />
