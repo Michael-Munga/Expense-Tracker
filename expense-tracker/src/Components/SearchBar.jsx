@@ -6,7 +6,7 @@ export default function SearchBar({ searchTerm, onSearch }) {
     <div className="search-bar">
       <input
         type="text"
-        placeholder="Search Expenses"
+        placeholder="Search Expenses..."
         value={searchTerm}
         onChange={onSearch}
       />
